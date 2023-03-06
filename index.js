@@ -11,3 +11,42 @@ let languages = [ 'C#', 'Javascript', 'Ruby', 'PHP', 'Python' ];
 
 languages.push ( 'Kotlin' );
 console.log(languages);
+
+// 2b
+
+languages.splice( 3,0,'Java');
+console.log(languages);
+
+// 2c
+
+languages.shift();
+console.log(languages);
+
+// 2d
+
+languages.unshift( 'Scala', 'Swift');
+console.log(languages);
+
+// 2e
+
+languages.splice(5,1,'Go', 'Rust');
+console.log(languages);
+
+// Question 3
+let fruit = [ 'apple', 'mango', 'banana' ];
+function changeFruit( fruit ) {
+    fruit[2] = "orange";
+    return fruit;
+}
+
+console.log(changeFruit);
+
+// Question 4
+
+const positiveNumbers = function( [1, 2, 8, 16, 12] ) {
+    let result = ('maximum ' + 'value ' + 'is ' + 16 + '.'),
+    return result;
+}
+
+let maxPositiveNumber = positiveNumbers ();
+console.log(maxPositiveNumber);
