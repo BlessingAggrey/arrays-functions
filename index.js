@@ -40,7 +40,17 @@ console.log(languages);
 function positiveNumbers(numbers) {
     
     return 'maximum ' + 'value ' + 'is ' + Math.max (...numbers) + '.';
-}
+};
 
 let maxPositiveNumber = positiveNumbers([1,2,8,16,12]);
 console.log(maxPositiveNumber);
+
+//Question 5
+
+function valTimesIndex(numbers) {
+
+return numbers.map((value,index) => value * index);
+};
+
+let newArray = valTimesIndex([2,4,6,8]);
+console.log(newArray);
