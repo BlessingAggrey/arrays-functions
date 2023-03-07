@@ -5,16 +5,16 @@
 
 // Question 2
 
-let languages = [ 'C#', 'Javascript', 'Ruby', 'PHP', 'Python' ];
+let languages = ['C#', 'Javascript', 'Ruby', 'PHP', 'Python'];
 
 // 2a
 
-languages.push ( 'Kotlin' );
+languages.push('Kotlin');
 console.log(languages);
 
 // 2b
 
-languages.splice( 3,0,'Java');
+languages.splice(3, 0, 'Java');
 console.log(languages);
 
 // 2c
@@ -24,20 +24,23 @@ console.log(languages);
 
 // 2d
 
-languages.unshift( 'Scala', 'Swift');
+languages.unshift('Scala', 'Swift');
 console.log(languages);
 
 // 2e
 
-languages.splice(5,1,'Go', 'Rust');
+languages.splice(5, 1, 'Go', 'Rust');
 console.log(languages);
 
 // Question 3
 // The value of fruit will be ['apple', 'mango', 'orange'];
 // This is because 'orange' replaces 'banana' at the second index
 
-
-console.log(function);
-
 // Question 4
+function positiveNumbers(numbers) {
+    
+    return 'maximum ' + 'value ' + 'is ' + Math.max (...numbers) + '.';
+}
 
+let maxPositiveNumber = positiveNumbers([1,2,8,16,12]);
+console.log(maxPositiveNumber);
