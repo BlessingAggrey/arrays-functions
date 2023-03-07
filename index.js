@@ -33,20 +33,11 @@ languages.splice(5,1,'Go', 'Rust');
 console.log(languages);
 
 // Question 3
-let fruit = [ 'apple', 'mango', 'banana' ];
-function changeFruit( fruit ) {
-    fruit[2] = "orange";
-    return fruit;
-}
+// The value of fruit will be ['apple', 'mango', 'orange'];
+// This is because 'orange' replaces 'banana' at the second index
 
-console.log(changeFruit);
+
+console.log(function);
 
 // Question 4
 
-const positiveNumbers = function( [1, 2, 8, 16, 12] ) {
-    let result = ('maximum ' + 'value ' + 'is ' + 16 + '.'),
-    return result;
-}
-
-let maxPositiveNumber = positiveNumbers ();
-console.log(maxPositiveNumber);
